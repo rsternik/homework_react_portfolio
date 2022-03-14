@@ -1,6 +1,6 @@
 # React Portfolio
 
-## Notes
+## Description
 Portfolio page created using React
 
 ## Live URL
