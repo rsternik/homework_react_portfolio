@@ -13,3 +13,7 @@ https://github.com/rsternik/homework_react_portfolio
 Github: https://github.com/rsternik
 
 Email: rsternik.wg@gmail.com
+
+## Preview
+
+![](src/assets/img/preview.png)

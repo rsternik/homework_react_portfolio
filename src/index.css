@@ -7,32 +7,24 @@
   margin: 0;
   font-family: "Oxanium";
   background-color: #1f2833;
-  color: #ececec;
-}
+  color: #c5c6c7
+  }
 
 .navbar {
   margin-top: 5%;
   margin-left: 15.1%;
   margin-right: 15.1%;
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  /* border-bottom: 2px solid; */
-  
-}
-
-a.button {
-  color: 'white';
-  background-color: '#f1356d';
-  border-radius: '8px';
+  grid-template-columns: 2fr 6fr;
 }
 
 .navbar h1 {
   color: #c5c6c7;
   text-decoration: underline;
-  
+
 }
 
-.navbar .links {
+.navbar .links  {
   margin-left: auto;
 
 }
@@ -57,7 +49,7 @@ a.button {
   max-width: 68%;
   margin: 1% auto;
   padding: .5em;
-  text-align: center;
+  text-align: -webkit-center;
   border: solid #c5c6c7 2px;
   border-radius: 10px;
 
@@ -69,31 +61,64 @@ a.button {
   border-radius: 10px;
 }
 
-.myWork img{
+.myWork img {
   border-bottom: 3px solid;
   max-width: 75%;
   max-height: 70%;
   border-radius: 6px;
   box-shadow: 4px blanchedalmond;
   margin: 1em;
+
+}
+
+.myWork img:hover {
+  transform: scale(1.25, 1.25);
+}
+
+.myWork img:active {
+  transform: scale(0.9, 0.9);
+}
+
+.myWork {
+  display: grid;
+  grid-template-rows: .1fr .1fr .1fr .05fr;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: left;
+
+}
+
+body .contact {
+  color: #c5c6c7;
+}
+
+body .contactContainerForm {
+  background-color:#c5c6c7;
+  width: 20%;
+  height: 100%;
+
+}
+
+.contact-form{
+
+  color: #000000;
+ 
+}
+.form-control{
+  background-color: #c5c6c7;
+  border-radius: 8px;
+  color: #000000;
+}
+
+.btn
+{
+  color: #1f2833;
+  background-color: #c5c6c7;
+  border-radius: 8px;
+}
+
+h2.top-title{
   
-}
-
-.myWork img:hover{
-transform: scale(1.25,1.25);
-}
-
-.myWork img:active{
-transform: scale(0.9,0.9);
-}
-
-.myWork{
-display: grid;
-grid-template-rows: .1fr .1fr .1fr .05fr;
-grid-template-columns: 1fr 1fr;
-justify-items: center;
-align-items: left;
-
-
-
+ color: #c5c6c7;
+  
 }

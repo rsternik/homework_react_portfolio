@@ -1,10 +1,9 @@
-import Navbar from './Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './Header';
 import NotFound from './NotFound';
 import Projects from './Projects'
 import Home from './Home';
 import Contact from './Contact';
-import Resume from './Resume';
 import About from './About'
 
 function App(
@@ -12,7 +11,7 @@ function App(
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Header />
         <div className="content">
           <Switch>
             <Route exact path="/">
@@ -24,9 +23,9 @@ function App(
             <Route path="/Projects">
               <Projects />
             </Route>
-            <Route path="/Resume">
-              <Resume />
-            </Route>
+            {/* <Route path="/Resume">
+              <a href ={ Resume }/>
+            </Route> */}
             <Route path="/Contact">
               <Contact />
             </Route>

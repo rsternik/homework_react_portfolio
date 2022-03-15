@@ -1,4 +1,5 @@
 // Router
+import Resume from './assets/resume.pdf'
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,10 +11,10 @@ const Navbar = () => {
         <Link to="/About" >ABOUT</Link>
         <Link to="/Projects" >PROJECTS</Link>
         <Link to="/Contact" >CONTACT</Link>
-        <Link to="/Resume" >RESUME</Link>
+        <a href={ Resume }> RESUME </a>
       </div>
     </nav>
-  );
+  )
 }
 
 export default Navbar;
