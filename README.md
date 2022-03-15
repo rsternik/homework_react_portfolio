@@ -4,7 +4,7 @@
 Portfolio page created using React
 
 ## Live URL
-https://rsternik.github.io/homework_react_portfolio/
+https://my-react-portfolio-page.herokuapp.com/
 
 ## GitHub Codebase
 https://github.com/rsternik/homework_react_portfolio
